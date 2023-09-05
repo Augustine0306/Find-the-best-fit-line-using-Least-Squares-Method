@@ -25,7 +25,7 @@ RegisterNumber:212222240015
 */
 ```
 ```
-# least square method
+## least square method
 
 import matplotlib.pyplot as plt
 x=[5,6,3,2,6,7,1,2]
@@ -37,12 +37,12 @@ plt.show()
 import numpy as np
 import matplotlib.pyplot as plt
 
-# assign input
+## assign input
 
 X=np.array([0,1,2,3,4,5,6,7,8,9])
 Y=np.array([1,3,2,5,7,8,8,9,10,12])
 
-# mean values of input
+## mean values of input
 
 X_mean=np.mean(X)
 print(X_mean)
@@ -56,22 +56,22 @@ for i in range (len(X)):
   num+=(X[i]-X_mean)*(Y[i]-Y_mean)
   denum+=(X[i]-X_mean)**2
   
-# find m
+## find m
 
 m=num/denum
 print(m)
 
-# find b
+## find b
 
 b=Y_mean-m*X_mean
 print(b)
 
-# find Y_pred
+## find Y_pred
 
 Y_pred=m*X+b
 print(Y_pred)
 
-# plot graph
+## plot graph
 
 plt.scatter(X,Y)
 plt.plot(X,Y_pred,color='green')
@@ -80,7 +80,7 @@ plt.show()
 ```
 
 ## Output:
-![best fit line](sam.png)
+
 ![image](https://github.com/Augustine0306/Find-the-best-fit-line-using-Least-Squares-Method/assets/119404460/c8769e4a-94e8-45a5-a9ef-3f81e7011433)
 ![image](https://github.com/Augustine0306/Find-the-best-fit-line-using-Least-Squares-Method/assets/119404460/3148b825-c7c8-43d9-8fd6-a750391aee14)
 ![image](https://github.com/Augustine0306/Find-the-best-fit-line-using-Least-Squares-Method/assets/119404460/1a04c3b6-4c79-4be9-bd0f-9e452c868430)
