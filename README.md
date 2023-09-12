@@ -78,9 +78,6 @@ plt.show()
 ```
 
 ## Output:
-
-![image](https://github.com/Augustine0306/Find-the-best-fit-line-using-Least-Squares-Method/assets/119404460/c8769e4a-94e8-45a5-a9ef-3f81e7011433)
-![image](https://github.com/Augustine0306/Find-the-best-fit-line-using-Least-Squares-Method/assets/119404460/3148b825-c7c8-43d9-8fd6-a750391aee14)
 ![image](https://github.com/Augustine0306/Find-the-best-fit-line-using-Least-Squares-Method/assets/119404460/1a04c3b6-4c79-4be9-bd0f-9e452c868430)
 
 ## Result:
